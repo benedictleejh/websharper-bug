@@ -1,0 +1,25 @@
+﻿<div class="p-5-md">
+    <div class="text-center">
+        <h1 class="h4 fg-darkGray mb-4">Provide your credentials</h1>
+    </div>
+
+    <replace ws-replace="AlertBox"></replace>
+
+    <form class="user">
+        <div class="form-group">
+            <input type="email" class="" placeholder="Username (admin)" ws-var="Username">
+        </div>
+        <div class="form-group">
+            <input type="password" class="" placeholder="Password (admin)" ws-var="Password">
+        </div>
+        <div class="form-group">
+            <input id="login-remember" type="checkbox" data-role="checkbox" data-caption="Remember me" ws-var="RememberMe">
+        </div>
+        <a href="javascript:void(0)" class="button primary btn-user d-block" ws-onclick="OnLogin">
+            Login
+        </a>
+        <a href="javascript:void(0)" class="button primary btn-user d-block" ws-onclick="OnLogout">
+            Logout
+        </a>
+    </form>
+</div>
